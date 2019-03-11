@@ -1,5 +1,4 @@
 // writes to the log 'hello'
-https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js
 
 console.log('hello')
 
@@ -12,14 +11,14 @@ $( document ).ready(function(){
 
   // when the button is clicked it triggers a function
   $('h1').on('click', function () {
-$("button").click(function(event){
+
     // 1. log to the console that you have clicked the button
 
     // this selects a randon background from above and stores it as the variable 'randomBackground'
     var randomBackground = backgrounds[Math.floor(Math.random() * backgrounds.length)];
     // this creates a string that css will understand to be a background url
     var imageUrl = "url('./images/" + randomBackground + ".jpg')"
-});
+
     // 2. using jquery, change the image url of the body background to the new one saved above
 
     // EXTENSION TASK!
