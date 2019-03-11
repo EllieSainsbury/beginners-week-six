@@ -11,7 +11,12 @@ $( document ).ready(function(){
 
 
   // when the button is clicked it triggers a function
-  $('h1').onbutton('click', function (backgrounds) {
+  $('h1').on('click', function (backgrounds) {
+
+
+    $("#button").click(function(backgrounds) {
+  var backgrounds = $("#change").val();
+});
 
     // 1. log to the console that you have clicked the button
 
