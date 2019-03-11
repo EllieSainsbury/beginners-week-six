@@ -1,7 +1,7 @@
 // writes to the log 'hello'
 https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js
 
-console.log('hello!')
+console.log('hello')
 
 // three different variables for the different images
 var backgrounds = ['mike-yukhtenko', 'gabriele-garanzelli', 'fabian-oelkers']
